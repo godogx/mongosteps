@@ -1,0 +1,22 @@
+[
+    {
+        "_id": {"$oid": "6250053966df8910f804c3a7"},
+        "name": "John Doe",
+        "age": 30,
+        "address": {
+            "street": "Street 1",
+            "city": "City 1",
+            "country": "Country 1"
+        }
+    },
+    {
+        "_id": {"$oid": "6250053966df8910f804c3a8"},
+        "name": "Jane Doe",
+        "age": 20,
+        "address": {
+            "street": "Street 2",
+            "city": "City 2",
+            "country": "Country 2"
+        }
+    }
+]
