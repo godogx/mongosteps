@@ -7,7 +7,7 @@ require (
 	github.com/nhatthm/testcontainers-go-extra v0.2.0
 	github.com/nhatthm/testcontainers-go-registry v0.3.0
 	github.com/stretchr/testify v1.7.1
-	go.mongodb.org/mongo-driver v1.9.0
+	go.mongodb.org/mongo-driver v1.9.1
 )
 
 require github.com/swaggest/assertjson v1.6.8
