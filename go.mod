@@ -10,13 +10,13 @@ require (
 	go.mongodb.org/mongo-driver v1.9.1
 )
 
-require github.com/swaggest/assertjson v1.6.8
+require github.com/swaggest/assertjson v1.7.0
 
 require (
 	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/Microsoft/go-winio v0.5.2 // indirect
 	github.com/Microsoft/hcsshim v0.9.2 // indirect
-	github.com/bool64/shared v0.1.3 // indirect
+	github.com/bool64/shared v0.1.4 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.2 // indirect
 	github.com/containerd/cgroups v1.0.3 // indirect
 	github.com/containerd/containerd v1.6.2 // indirect
