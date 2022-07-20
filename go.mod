@@ -6,7 +6,7 @@ require (
 	github.com/cucumber/godog v0.12.5
 	github.com/nhatthm/testcontainers-go-extra v0.3.0
 	github.com/nhatthm/testcontainers-go-registry v0.4.1
-	github.com/stretchr/testify v1.7.5
+	github.com/stretchr/testify v1.8.0
 	go.mongodb.org/mongo-driver v1.10.0
 )
 
