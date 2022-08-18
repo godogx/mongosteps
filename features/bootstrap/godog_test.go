@@ -18,10 +18,10 @@ import (
 	"time"
 
 	"github.com/cucumber/godog"
-	"github.com/nhatthm/testcontainers-go-extra"
 	"github.com/stretchr/testify/assert"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
+	"go.nhat.io/testcontainers-go-extra"
 	mongodb "go.nhat.io/testcontainers-go-registry/mongo"
 
 	"github.com/godogx/mongosteps"
