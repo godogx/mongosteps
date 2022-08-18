@@ -19,10 +19,10 @@ import (
 
 	"github.com/cucumber/godog"
 	"github.com/nhatthm/testcontainers-go-extra"
-	mongodb "github.com/nhatthm/testcontainers-go-registry/database/mongo"
 	"github.com/stretchr/testify/assert"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
+	mongodb "go.nhat.io/testcontainers-go-registry/mongo"
 
 	"github.com/godogx/mongosteps"
 )
