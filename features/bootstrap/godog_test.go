@@ -8,7 +8,6 @@ import (
 	"encoding/hex"
 	"flag"
 	"fmt"
-	"io/ioutil"
 	"log"
 	"math/rand"
 	"os"
@@ -21,8 +20,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
-	"go.nhat.io/testcontainers-go-extra"
-	mongodb "go.nhat.io/testcontainers-go-registry/mongo"
+	"go.nhat.io/testcontainers-extra"
+	mongodb "go.nhat.io/testcontainers-registry/mongo"
 
 	"github.com/godogx/mongosteps"
 )
@@ -139,7 +138,7 @@ func runSuite(t *testing.T, path string, initScenario func(t *testing.T, sc *god
 
 	var paths []string
 
-	files, err := ioutil.ReadDir(filepath.Clean(path))
+	files, err := os.ReadDir(filepath.Clean(path))
 	assert.NoError(t, err)
 
 	paths = make([]string, 0, len(files))
