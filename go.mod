@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/cucumber/godog v0.12.5
 	github.com/stretchr/testify v1.8.0
-	github.com/swaggest/assertjson v1.6.8
+	github.com/swaggest/assertjson v1.7.0
 	go.mongodb.org/mongo-driver v1.10.1
 	go.nhat.io/testcontainers-extra v0.5.0
 	go.nhat.io/testcontainers-registry/mongo v0.2.0
