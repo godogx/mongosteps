@@ -6,7 +6,7 @@ require (
 	github.com/cucumber/godog v0.12.5
 	github.com/stretchr/testify v1.8.1
 	github.com/swaggest/assertjson v1.7.0
-	go.mongodb.org/mongo-driver v1.10.3
+	go.mongodb.org/mongo-driver v1.11.0
 	go.nhat.io/testcontainers-extra v0.7.0
 	go.nhat.io/testcontainers-registry/mongo v0.4.0
 )
