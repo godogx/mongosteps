@@ -3,7 +3,7 @@ module github.com/godogx/mongosteps
 go 1.17
 
 require (
-	github.com/cucumber/godog v0.12.5
+	github.com/cucumber/godog v0.12.6
 	github.com/stretchr/testify v1.8.1
 	github.com/swaggest/assertjson v1.7.0
 	go.mongodb.org/mongo-driver v1.11.1
