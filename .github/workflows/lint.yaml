@@ -1,29 +1,35 @@
 name: lint
+
 on:
   push:
-    tags:
-      - v*
     branches:
       - master
-      - main
   pull_request:
+
+env:
+    GO_VERSION: "1.20.x"
+
 jobs:
   lint:
     name: lint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Install Go
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v3
         with:
-          go-version: 1.19.x
+            go-version: ${{ env.GO_VERSION }}
 
-      - name: golangci-lint
+      - id: vars
+        run: |
+          make $GITHUB_OUTPUT
+
+      - name: lint
         uses: golangci/golangci-lint-action@v3
         with:
           # Required: the version of golangci-lint is required and must be specified without patch version: we always use the latest patch version.
-          version: v1.48.0
+          version: ${{ steps.vars.outputs.GOLANGCI_LINT_VERSION }}
 
           # Optional: working directory, useful for monorepos
           # working-directory: somedir

@@ -28,6 +28,7 @@ linters:
     - gochecknoglobals
     - golint
     - gomnd
+    - gomoddirectives
     - ifshort
     - interfacer
     - ireturn
