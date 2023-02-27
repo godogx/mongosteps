@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/cucumber/godog v0.12.6
-	github.com/stretchr/testify v1.8.1
+	github.com/stretchr/testify v1.8.2
 	github.com/swaggest/assertjson v1.7.0
 	go.mongodb.org/mongo-driver v1.11.1
 	go.nhat.io/testcontainers-extra v0.9.0
