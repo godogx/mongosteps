@@ -6,9 +6,9 @@ require (
 	github.com/cucumber/godog v0.12.6
 	github.com/stretchr/testify v1.8.3
 	github.com/swaggest/assertjson v1.7.0
-	go.mongodb.org/mongo-driver v1.11.1
+	go.mongodb.org/mongo-driver v1.11.6
 	go.nhat.io/testcontainers-extra v0.11.0
-	go.nhat.io/testcontainers-registry/mongo v0.6.0
+	go.nhat.io/testcontainers-registry/mongo v0.8.0
 )
 
 require (
@@ -63,9 +63,9 @@ require (
 	github.com/youmark/pkcs8 v0.0.0-20201027041543-1326539a0a0a // indirect
 	github.com/yudai/gojsondiff v1.0.0 // indirect
 	github.com/yudai/golcs v0.0.0-20170316035057-ecda9a501e82 // indirect
-	go.nhat.io/testcontainers-registry v0.11.0 // indirect
-	go.uber.org/atomic v1.10.0 // indirect
-	golang.org/x/crypto v0.5.0 // indirect
+	go.nhat.io/testcontainers-registry v0.13.0 // indirect
+	go.uber.org/atomic v1.11.0 // indirect
+	golang.org/x/crypto v0.9.0 // indirect
 	golang.org/x/mod v0.10.0 // indirect
 	golang.org/x/net v0.10.0 // indirect
 	golang.org/x/sync v0.2.0 // indirect
