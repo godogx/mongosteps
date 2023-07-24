@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/cucumber/godog v0.12.6
 	github.com/stretchr/testify v1.8.3
-	github.com/swaggest/assertjson v1.8.1
+	github.com/swaggest/assertjson v1.9.0
 	go.mongodb.org/mongo-driver v1.11.6
 	go.nhat.io/testcontainers-extra v0.11.0
 	go.nhat.io/testcontainers-registry/mongo v0.8.0
@@ -37,7 +37,7 @@ require (
 	github.com/hashicorp/go-memdb v1.3.4 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
-	github.com/iancoleman/orderedmap v0.2.0 // indirect
+	github.com/iancoleman/orderedmap v0.3.0 // indirect
 	github.com/imdario/mergo v0.3.15 // indirect
 	github.com/klauspost/compress v1.16.5 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
