@@ -45,10 +45,6 @@ func TestManager_NoDocumentsInCollectionOfDatabase(t *testing.T) {
 
 		mt := mtest.New(t, mtest.NewOptions().ClientType(mtest.Mock))
 
-		mt.Cleanup(func() {
-			mt.Close()
-		})
-
 		mt.Run(tc.scenario, func(t *mtest.T) {
 			t.Parallel()
 
@@ -120,10 +116,6 @@ func TestManager_TheseDocumentsAreStoredInCollectionOfDatabase(t *testing.T) {
 
 		mt := mtest.New(t, mtest.NewOptions().ClientType(mtest.Mock))
 
-		mt.Cleanup(func() {
-			mt.Close()
-		})
-
 		mt.Run(tc.scenario, func(t *mtest.T) {
 			t.Parallel()
 
@@ -194,10 +186,6 @@ func TestManager_TheseDocumentsFromFileAreStoredInCollectionOfDatabase(t *testin
 
 		mt := mtest.New(t, mtest.NewOptions().ClientType(mtest.Mock))
 
-		mt.Cleanup(func() {
-			mt.Close()
-		})
-
 		mt.Run(tc.scenario, func(t *mtest.T) {
 			t.Parallel()
 
@@ -263,10 +251,6 @@ func TestManager_SearchInCollectionOfDatabase(t *testing.T) {
 
 		mt := mtest.New(t, mtest.NewOptions().ClientType(mtest.Mock))
 
-		mt.Cleanup(func() {
-			mt.Close()
-		})
-
 		mt.Run(tc.scenario, func(t *mtest.T) {
 			t.Parallel()
 
@@ -325,10 +309,6 @@ func TestManager_NoDocumentsAreAvailableInCollectionOfDatabase(t *testing.T) {
 
 		mt := mtest.New(t, mtest.NewOptions().ClientType(mtest.Mock))
 
-		mt.Cleanup(func() {
-			mt.Close()
-		})
-
 		mt.Run(tc.scenario, func(t *mtest.T) {
 			t.Parallel()
 
@@ -386,10 +366,6 @@ func TestManager_HaveNumberOfDocumentsAvailableInCollectionOfDatabase(t *testing
 		tc := tc
 
 		mt := mtest.New(t, mtest.NewOptions().ClientType(mtest.Mock))
-
-		mt.Cleanup(func() {
-			mt.Close()
-		})
 
 		mt.Run(tc.scenario, func(t *mtest.T) {
 			t.Parallel()
@@ -496,10 +472,6 @@ func TestManager_HaveOnlyTheseDocumentsAvailableInCollectionOfDatabase(t *testin
 
 		mt := mtest.New(t, mtest.NewOptions().ClientType(mtest.Mock))
 
-		mt.Cleanup(func() {
-			mt.Close()
-		})
-
 		mt.Run(tc.scenario, func(t *mtest.T) {
 			t.Parallel()
 
@@ -586,10 +558,6 @@ func TestManager_HaveOnlyTheseDocumentsFromFileAvailableInCollectionOfDatabase(t
 		tc := tc
 
 		mt := mtest.New(t, mtest.NewOptions().ClientType(mtest.Mock))
-
-		mt.Cleanup(func() {
-			mt.Close()
-		})
 
 		mt.Run(tc.scenario, func(t *mtest.T) {
 			t.Parallel()

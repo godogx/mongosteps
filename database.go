@@ -12,10 +12,10 @@ import (
 
 // DatabaseOption sets the database option.
 type DatabaseOption interface {
-	applyDatabaseOption(*database)
+	applyDatabaseOption(d *database)
 }
 
-type databaseOptionFunc func(*database)
+type databaseOptionFunc func(d *database)
 
 func (f databaseOptionFunc) applyDatabaseOption(d *database) {
 	f(d)
