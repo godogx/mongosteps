@@ -17,10 +17,10 @@ const defaultDatabase = "default"
 
 // ManagerOption sets an option on the Manager.
 type ManagerOption interface {
-	applyManagerOption(*Manager)
+	applyManagerOption(m *Manager)
 }
 
-type managerOptionFunc func(*Manager)
+type managerOptionFunc func(m *Manager)
 
 func (f managerOptionFunc) applyManagerOption(m *Manager) {
 	f(m)
