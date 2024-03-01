@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/cucumber/godog v0.13.0
-	github.com/stretchr/testify v1.8.4
+	github.com/stretchr/testify v1.9.0
 	github.com/swaggest/assertjson v1.9.0
 	go.mongodb.org/mongo-driver v1.13.1
 	go.nhat.io/testcontainers-extra v0.11.0
